@@ -1,0 +1,37 @@
+import = [
+    "~/.config/alacritty/themes/themes/github_dark.toml"
+]
+
+[window]
+dimensions = {columns = 100, lines = 100}
+dynamic_padding = true
+opacity = 1.4 
+title = "Alacritty"
+startup_mode = "Windowed"
+decorations = "None"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 6 
+y = 6 
+
+[scrolling]
+history = 5000
+multiplier = 3
+
+[shell]
+program = "/bin/zsh"
+
+[font]
+size = 12.8
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+    {key = "N", mods = "Control|Shift", action = "CreateNewWindow"},
+]
